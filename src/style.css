@@ -2,22 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #292828;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
-    background-color: #292828;
+    background-color: #535252;
     color: white;
 }
 .left-nav, .center-nav{
     display:flex;
     gap: 1rem;
     align-items: center;
+    background-color: #535252;
 }
 #heading{
-    font-size:28px
+    font-size:28px;
+    background-color: #535252;
 }
 
 .right-nav{
@@ -25,6 +28,7 @@
     justify-content: space-around;
     gap: 2rem;
     align-items: center;
+    background-color: #535252;
 }
 .right-nav{
     cursor: pointer;
@@ -38,6 +42,7 @@
     gap: 0.5rem;
     color: white;
     border-radius:5px;
+    background-color: #535252;
 }
 #search{
     background-color: transparent;
@@ -62,4 +67,26 @@
     box-shadow:1px 1px 10px rgb(141, 124, 124);
     transform:scale(1.1);
     background-color: transparent;
+    background-color: #535252;
+}
+.icons{
+    border-radius:50%;
+    height: 40px;
+    width: 20px;
+    background-color: #535252;
+}
+
+.books{
+    background-color: #292828;
+    gap: 3rem;
+    margin:30px 30px;
+}
+#more-books{
+    text-align: left;
+    margin: 10px 40px;
+    color: white;
+}
+.books img{
+    width:250px;
+    height:300px;
 }
