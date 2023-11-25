@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../Imgaes/logo.svg"
+import logo from "../Images/logo.svg"
 import { FaSearch, FaBook, FaGem, FaRegBell, FaRegUserCircle } from "react-icons/fa";
 
 export const Navbar = () => {
